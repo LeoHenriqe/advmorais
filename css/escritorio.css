@@ -1,0 +1,89 @@
+.top-escritorio {
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/imagens/wepik-export-20240108190716YHrD.png);
+}
+
+.top-escritorio .txt-escri {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.top-escritorio .txt-escri p{
+    border-left: 4px solid #784b44;
+    height: 120px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+
+.top-escritorio .txt-escri h5 {
+    color: white;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.pilares {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.pilares .container{
+    align-items: center;
+    text-align: center;
+}
+
+.pilares .left-pilares p{
+    color: rgb(43, 43, 43);
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+
+.pilares .left-pilares{
+    width: 70%;
+}
+
+.pilares .top-pilares{
+    width: 50%;
+}
+
+.pilares .top-pilares h3{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 75px;
+}
+
+.pilares .top-pilares p{
+    color: rgb(43, 43, 43);
+    font-weight: normal;
+    font-size: 2rem;
+    width: 100%;
+    border-left: 4px #363636 solid;
+}
+
+.pilares img{
+    width: 20%;
+}
+
+.pilares .large-box{
+    display: inline-flex;
+    width: 100%;
+}
+
+.box{
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.box h3{
+    font-size: 14px;
+    width: 70%;
+}
