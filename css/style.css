@@ -4,6 +4,16 @@
     font-family: 'Outfit', sans-serif;
 }
 
+.wpp-btn  img{
+    color: white;
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    z-index: 100;
+    width: 64px;
+    height: 64px;
+}
+
 .navbar-brand {
     width: 60px;
 }
@@ -47,8 +57,7 @@ nav li {
     position: absolute;
     filter: opacity(0.7);
     border-radius: 10px;
-    background: linear-gradient(#555555, #342323) padding-box,
-        linear-gradient(220deg, transparent 30%, #803542, #161616) border-box;
+    background: linear-gradient(#555555, #342323) padding-box, linear-gradient(220deg, transparent 30%, #803542, #161616) border-box;
     border: 2px solid transparent;
     padding: 32px 24px;
     font-size: 14px;
@@ -237,7 +246,7 @@ button {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    box-shadow: rgba(97, 103, 107, 0.727) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
 }
 
