@@ -10,6 +10,10 @@ a{
     color: white;
 }
 
+.formulario{
+    margin-top: -45px;
+}
+
 .formulario .fundo-form {
     width: 95%;
     height: 120%;

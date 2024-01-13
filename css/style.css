@@ -578,4 +578,10 @@ footer img {
         width: 15%;
     }
 
+    #escritorio-img{
+        height: 200px;
+        margin-bottom: -60px;
+        width: 100%;
+    }
+
 }
