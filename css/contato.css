@@ -1,5 +1,5 @@
 #first-sec {
-    height: 800px;
+    height: 700px;
     background-position: center center;
     background-image: url(/imagens/3.png);
     background-size: cover;
@@ -28,31 +28,38 @@ a{
 }
 
 .left p{
-    font-size: 19px;
-    margin-top: -140px;
+    font-size: 17px;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .redes{
     background-color: #1a1a1a;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .redes .txt-redes{
+    width: 100%;
     padding: 10px;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
+.box{
+    top: 100px;
+}
+
 .box img{
-    width: 30%;
+    width: 20%;
 }
 
 .redes .txt-redes h3{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
