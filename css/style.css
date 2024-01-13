@@ -304,15 +304,17 @@ button {
 .location .inline {
     display: inline-flex;
     width: 100%;
+    justify-content: center;
+}
+
+.location .inline #img-in{
+    width: 40%;
+    height: 30%;
 }
 
 .location p {
     color: #262626;
     font-weight: bold;
-}
-
-.location img {
-    width: 50%;
 }
 
 .location .box-contatos img {

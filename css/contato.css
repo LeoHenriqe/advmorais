@@ -57,7 +57,7 @@ a{
 
 @media only screen and (max-width: 600px) {
     #first-sec{
-        height: 1400px;
+        height: 1450px;
     }
 
     .left{
@@ -65,7 +65,7 @@ a{
     }
 
     .formulario{
-        margin-top: 650px;
+        margin-top: 700px;
     }
 
     .redes{
