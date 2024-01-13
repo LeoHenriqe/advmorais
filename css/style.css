@@ -29,9 +29,10 @@ h1 {
 
 p {
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 200;
     width: 50%;
+    text-align: justify;
 }
 
 header {
@@ -183,7 +184,7 @@ button {
     font-size: 1.5rem;
     width: 25%;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
 }
 
 .flex-box .first-box,
@@ -211,6 +212,7 @@ button {
 .flex-box h6 {
     font-weight: lighter;
     font-size: 1rem;
+    text-align: justify;
 }
 
 #second-sec {
@@ -221,6 +223,7 @@ button {
 #second-sec p {
     color: black;
     font-size: 1.2rem;
+    text-align: justify;
 }
 
 #second-sec .box-serv p {
@@ -228,6 +231,7 @@ button {
     font-size: 1rem;
     font-style: oblique;
     font-weight: bold;
+    text-align: justify;
 }
 
 .caixas-servicos {
@@ -247,7 +251,7 @@ button {
     margin: 10px;
     border-radius: 10px;
     box-shadow: rgba(97, 103, 107, 0.727) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
+    
 }
 
 .box-refe .seta-2 {
@@ -258,12 +262,14 @@ button {
     color: rgb(27, 27, 27);
     font-size: 1rem;
     font-weight: bold;
+    text-align: justify;
 }
 
 .caixas-servicos .box h6 {
     color: rgb(92, 92, 92);
     font-size: 1rem;
     font-weight: normal;
+    text-align: justify;
 }
 
 .caixas-servicos .top-box {
@@ -306,6 +312,7 @@ button {
     font-size: 1.1rem;
     width: 90%;
     font-weight: normal;
+    text-align: justify;
 }
 
 .location .inline {

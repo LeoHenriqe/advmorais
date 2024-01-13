@@ -25,6 +25,8 @@
     width: 90%;
     color: white;
     font-weight: 100;
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 #second-sec{
@@ -39,8 +41,9 @@
     width: 100%;
     color: black;
     font-size: 25px;
-    text-align: center;
     margin-bottom: 40px;
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 600px) {
