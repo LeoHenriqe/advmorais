@@ -292,6 +292,7 @@ button {
 #escritorio-img{
     border-radius: 10px;
     height: 400px;
+    margin-top: 50px;
 }
 
 .escritorio .inline {
