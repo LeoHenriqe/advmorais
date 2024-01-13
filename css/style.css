@@ -282,6 +282,7 @@ button {
 
 .topicos{
     border-radius: 10px;
+    width: 100%;
     padding: 10px;
     margin-bottom: 50px;
     display: inline-flex;
@@ -289,47 +290,40 @@ button {
 
 .topicos .inline-flex{
     display: inline-flex;
+    width: 100%;
 }
 
 .topicos .txt{
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     width: 100%;
+    justify-content: space-around;
 }
 
 .topicos #link-topicos{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(162, 162, 162);
     padding: 5px;
     border-radius: 5px;
-    background: #763838;
-    box-shadow: rgb(168, 168, 168) 0px 5px 10px 0px, rgb(160, 169, 175) 0px 2px 3px 1px;
-}
-
-.topicos .bottom{
-    margin-top: 80px;
+    background: #ffffff;
+    float: right;
 }
 
 .topicos p{
-    color: black;
+    color: rgb(56, 56, 56);
     width: 100%;
     font-size: 30px;
-}
-
-.topicos #img-topicos{
-    width: 40%;
-    border-radius: 10px;
-    float: right;
-    box-shadow: rgba(43, 43, 43, 0.201) 0px 4px 2px 0px, rgba(56, 56, 56, 0.241) 0px 5px 5px 1px;
+    font-weight: normal;
 }
 
 .topicos h3{
+    font-weight: bold;
     margin-top: 20px;
     height: 40px;
     padding-left: 20px;
     border-left: 2px solid #616161;
+    color: #191919;
 }
 
 .escritorio {
