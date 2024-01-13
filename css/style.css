@@ -280,6 +280,58 @@ button {
     height: 62px;
 }
 
+.topicos{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+    display: inline-flex;
+}
+
+.topicos .inline-flex{
+    display: inline-flex;
+}
+
+.topicos .txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topicos #link-topicos{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    background: #763838;
+    box-shadow: rgb(168, 168, 168) 0px 5px 10px 0px, rgb(160, 169, 175) 0px 2px 3px 1px;
+}
+
+.topicos .bottom{
+    margin-top: 80px;
+}
+
+.topicos p{
+    color: black;
+    width: 100%;
+    font-size: 30px;
+}
+
+.topicos #img-topicos{
+    width: 40%;
+    border-radius: 10px;
+    float: right;
+    box-shadow: rgba(43, 43, 43, 0.201) 0px 4px 2px 0px, rgba(56, 56, 56, 0.241) 0px 5px 5px 1px;
+}
+
+.topicos h3{
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 20px;
+    border-left: 2px solid #616161;
+}
+
 .escritorio {
     margin-top: 80px;
 }
@@ -516,6 +568,21 @@ footer img {
     .caixas-servicos .top-box img {
         width: 30px;
         height: 30px;
+    }
+
+    .topicos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .topicos .inline-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topicos #img-topicos{
+        width: 100%;
+        margin-top: 50px;
     }
 
     .seta-1 {
