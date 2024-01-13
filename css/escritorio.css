@@ -18,7 +18,6 @@
     padding-top: 30px;
     font-size: 2.2rem;
     font-weight: normal;
-    
 }
 
 .top-escritorio .txt-escri h5 {
@@ -156,11 +155,12 @@
     .top-escritorio .txt-escri h5{
         width: 100%;
         margin-top: 40px;
+        text-align: justify;
+        font-size: 26px;
     }
 
-    .large-box{
+    .pilares .large-box{
         align-items: center;
-        text-align: center;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -168,7 +168,7 @@
 
     .large-box .top-pilares h3{
         width: 100%;
-        text-align: center;
+        text-align: justify;
     }
 
     .large-box .top-pilares{
@@ -178,7 +178,6 @@
     }
 
     .left-pilares{
-        text-align: center;
         width: 100%;
         align-items: center;
         margin-top: 50px;
@@ -188,19 +187,20 @@
         width: 40%;
     }
 
-    .box h3{
+    .box .txt h3{
         width: 100%;
     }
 
-    .box p{
+    .box .txt p{
         width: 100%;
+        text-align: center;
     }
 
     .box{
         width: 100%;
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
         align-items: center;
     }
 

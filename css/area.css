@@ -55,11 +55,22 @@
     }
 
     .top-area{
-        height: 800px;
+        height: 600px;
         margin-top: -240px;
+    }
+
+    .top-area .txt-area h3{
+        margin-top: 100px;
+        width: 100%;
+        font-size: 20px;
     }
 
     .top-area .txt-area p{
         margin-top: 100px;
+    }
+
+    .container #txt-p-bottom{
+
+        font-size: 20px;
     }
 }

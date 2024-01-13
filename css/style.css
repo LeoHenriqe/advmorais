@@ -340,9 +340,16 @@ button {
     width: 50%;
 }
 
-.location .box-contatos h5 {
-    font-size: 1.6rem;
+.contato{
+    flex-direction: column;
+    display: flex;
+}
+
+#link-contato{
+    font-size: 1.2rem;
     padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .contato p {
@@ -468,7 +475,7 @@ footer img {
     .flex-box h6 {
         width: 100%;
         height: auto;
-        text-align: center;
+        text-align: justify;
     }
 
     .box-refe {
@@ -521,7 +528,7 @@ footer img {
 
     .txt-escrito p {
         font-size: 15px;
-        text-align: center;
+        text-align: justify;
         width: 100%;
     }
 
@@ -539,6 +546,7 @@ footer img {
         font-weight: 400;
         text-align: center;
         width: 100%;
+        margin-top: 100px;
         border-left: #B1827A 5px solid;
     }
 
