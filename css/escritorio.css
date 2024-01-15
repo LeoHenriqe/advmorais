@@ -13,10 +13,10 @@
 
 .top-escritorio .txt-escri p {
     border-left: 4px solid #784b44;
-    height: 120px;
+    height: 50px;
     padding-left: 30px;
     padding-top: 30px;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: normal;
 }
 
@@ -146,10 +146,10 @@
     }
 
     .top-escritorio .txt-escri p{
-        font-size: 20px;
-        margin-top: -230px;
-        height: 80px;
+        font-size: 18px;
+        margin-top: -200px;
         padding-top: 10px;
+        width: 100%;
     }
 
     .top-escritorio .txt-escri h5{
