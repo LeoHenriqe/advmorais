@@ -284,8 +284,10 @@ button {
     border-radius: 10px;
     width: 100%;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: inline-flex;
+    align-items: center;
 }
 
 .topicos .inline-flex{
@@ -294,6 +296,7 @@ button {
 }
 
 .topicos .txt{
+    align-items: center;
     padding: 30px;
     display: inline-flex;
     width: 100%;
@@ -305,7 +308,8 @@ button {
 }
 
 #img-h3{
-    width: 7%;
+    width: 30%;
+    height: auto;
 }
 
 .topicos #link-topicos{
@@ -581,10 +585,19 @@ footer img {
         display: flex;
         flex-direction: column;
     }
+    
+    .topicos .txt{
+        flex-direction: column;
+        display: flex;
+    }
 
-    .topicos #img-topicos{
+    .topicos .top{
         width: 100%;
-        margin-top: 50px;
+    }
+    
+    #img-h3{
+        width: 50%;
+        height: auto;
     }
 
     .seta-1 {
